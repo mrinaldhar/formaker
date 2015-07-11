@@ -1,0 +1,31 @@
+{
+	"title": "Title of the form",
+	"description": "This is what the form is all about.",
+	"pages": [
+		{
+			"title": "Title of the page",
+			"elements": [
+
+				{
+				"type":"text",
+				"label": "Full name",
+				"options": []
+				},
+
+				{
+				"type": "select",
+				"label": "Choose an option",
+				"options": ["A", "B", "C", "D"]
+				}
+
+				{
+				"type":"radio",
+				"label": "Select a gender",
+				"options": ["Male", "Female"]
+				}
+
+			]
+		}
+
+	]
+}
